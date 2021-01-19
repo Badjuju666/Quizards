@@ -1,3 +1,57 @@
 body {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, button {
+    cursor: pointer;        
+}
+
+#top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    margin-left: 35%;
+}
+
+button {
+    background-color: blueviolet;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px 50px;
+    margin-bottom: 10px
+}
+
+button:hover {
+    background-color: rgb(255, 44, 244);
+}
+
+a {
+    color:blueviolet;
+}
+
+a:hover  {
+    text-decoration: underline;
+}
+
+.hide {
+    display: none;
+}
+
+#top-section.hide {
+    display: none;
+}
+
+#status-text {
+    margin: 0 auto; 
+    width: 10%; 
+    padding-top: 30px; 
+    border-top: 2px solid rgb(198, 114, 206)
     
 }
+

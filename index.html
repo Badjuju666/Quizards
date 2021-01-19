@@ -11,19 +11,19 @@
 </head>
 
 <body>
-    <div id="top-section" class="hide">
+    <div id="top-section" >
         <a id="highscore-link">View Highscores</a>
         <span id="timer">Time: __</span>
     </div>
 
     <div id="container">
         <div id="intro" class="center">
-            <h1>Coding Quix Challenge</h1>
-            <p>Some text, gif is too fast, can't read it lol</p>
+            <h1>Quiz for you now!</h1>
+            <p>Here is my quiz for you now!</p>
             <button id="start">Start</button>
         </div>
 
-        <div id="quiz" class="hide">
+        <div id="quiz" class="center">
             <h2 id="question">question</h2>
             <button id="answer-1">answer 1</button><br>
             <button id="answer-2">answer 2</button><br>
@@ -31,19 +31,21 @@
             <button id="answer-4">answer 4</button><br>
         </div>
 
-        <div id="submit" class="hide">
+        <div id="submit" class="center">
             <h1>All Done!</h1>
             <p>Your final score is <span id="score">_</span></p>
             <p>Enter your initals: <input id="initals"> <button id="submit-initals">Submit</button></p>
         </div>
 
-        <div id="highscores-container" class="hide">
+        <div id="highscores-container" class="center">
             <h1>Highscores</h1>
             <div id="highscores"></div>
             <button id="back">Back</button>
             <button id="clear-highscores">Clear Highscores</button>
         </div>
 
-        <div id="status-text" class="hide">Some status</div>
+        <div id="status-text" class="center">Some status</div>
     </div>
+    <script src="./assets/js.js"> </script>
+</body>    
 </html>
